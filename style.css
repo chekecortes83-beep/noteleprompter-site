@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Archivo Black";
+  src: url("assets/ArchivoBlack.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  --blue: #123ca0;
+  --red: #ce2028;
+  --navy: #102664;
+  --ink: #0a0c14;
+  --panel: #141826;
+  --panel-2: #1b2133;
+  --line: #2a3148;
+  --text: #f4f5f8;
+  --muted: #a6adc0;
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--text);
+  font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.wrap { max-width: 640px; margin: 0 auto; padding: 0 18px 48px; }
+
+/* The blue|red split from the page logo, as a full-width rule. */
+.split { height: 6px; background: linear-gradient(90deg, var(--blue) 50%, var(--red) 50%); }
+
+header { text-align: center; padding: 30px 0 8px; }
+
+.logo {
+  width: 108px; height: 108px; border-radius: 50%;
+  display: block; margin: 0 auto 14px;
+  box-shadow: 0 0 0 3px var(--ink), 0 0 0 5px #fff2;
+}
+
+.handle { color: var(--muted); font-size: 15px; margin: 0 0 14px; letter-spacing: .02em; }
+
+/* Same treatment as the clip headline: Archivo Black in a dark rounded box. */
+.title-box {
+  display: inline-block;
+  background: #000c; border-radius: var(--radius);
+  padding: 12px 20px;
+  font-family: "Archivo Black", Impact, sans-serif;
+  font-size: 26px; line-height: 1.15; text-transform: uppercase;
+}
+
+.kicker {
+  display: inline-block; margin-bottom: 10px;
+  background: #000a; border-radius: 10px; padding: 6px 12px;
+  font-family: "Archivo Black", Impact, sans-serif;
+  font-size: 13px; letter-spacing: .03em; text-transform: uppercase; color: #dfe3ee;
+}
+
+.intro { color: var(--muted); margin: 18px auto 6px; max-width: 30em; }
+
+.disclosure {
+  font-size: 13px; color: var(--muted);
+  border: 1px solid var(--line); border-radius: 10px;
+  padding: 10px 12px; margin: 18px 0 22px; text-align: center;
+}
+
+/* Sections: native <details>, no JS navigation — page-to-page links get
+   interstitials in TikTok's in-app browser; expanding in place does not. */
+details {
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: var(--radius); margin: 0 0 12px; overflow: hidden;
+}
+
+summary {
+  list-style: none; cursor: pointer;
+  display: flex; align-items: center; gap: 12px;
+  padding: 16px 16px;
+}
+summary::-webkit-details-marker { display: none; }
+
+.s-icon {
+  flex: 0 0 42px; height: 42px; border-radius: 10px;
+  display: grid; place-items: center; font-size: 22px;
+  background: var(--panel-2);
+}
+.s-text { flex: 1; min-width: 0; }
+.s-title {
+  font-family: "Archivo Black", Impact, sans-serif;
+  font-size: 17px; text-transform: uppercase; line-height: 1.2;
+}
+.s-sub { color: var(--muted); font-size: 14px; }
+.chev { color: var(--muted); font-size: 20px; transition: transform .2s; }
+details[open] .chev { transform: rotate(90deg); }
+
+details[data-tone="blue"] .s-icon { box-shadow: inset 3px 0 0 var(--blue); }
+details[data-tone="red"]  .s-icon { box-shadow: inset 3px 0 0 var(--red); }
+
+.items { padding: 0 12px 12px; display: grid; gap: 10px; }
+
+.card {
+  display: flex; gap: 12px; align-items: stretch;
+  background: var(--panel-2); border-radius: 12px; padding: 10px;
+  color: inherit; text-decoration: none;
+}
+.card img, .card .cover {
+  flex: 0 0 76px; height: 104px; border-radius: 6px; object-fit: cover; background: #0004;
+}
+/* Placeholder cover for the design preview only. */
+.cover {
+  display: grid; place-items: center; text-align: center; padding: 6px;
+  font-family: "Archivo Black", Impact, sans-serif; font-size: 10px; line-height: 1.1;
+  text-transform: uppercase;
+  background: linear-gradient(160deg, var(--navy), var(--blue));
+}
+.card .info { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.card .name { font-weight: 700; line-height: 1.25; }
+.card .why { color: var(--muted); font-size: 14px; margin-top: 3px; }
+.card .why b { color: #dfe3ee; font-weight: 600; }
+.card .btn {
+  margin-top: auto; align-self: flex-start;
+  background: var(--red); color: #fff; border-radius: 999px;
+  padding: 6px 14px; font-size: 14px; font-weight: 700;
+}
+
+.empty { color: var(--muted); font-size: 15px; padding: 4px 6px 8px; }
+
+footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 30px; }
+.socials { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: 12px 0 18px; }
+.socials a {
+  color: var(--text); text-decoration: none; font-weight: 600; font-size: 14px;
+  border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px;
+}
+footer small { display: block; font-size: 12px; line-height: 1.5; margin-top: 8px; }
+
+.banner {
+  background: var(--red); color: #fff; text-align: center;
+  font-weight: 700; font-size: 14px; padding: 8px;
+}
