@@ -103,10 +103,10 @@ const PRODUCTS = [
  },
  {
   "section": "witness",
-  "name": "Doesn't Hold Water",
+  "name": "Doesn't Hurt to Ask",
   "by": "Trey Gowdy",
-  "why": "The other side of the <b>Strzok-Gowdy</b> exchange",
-  "url": "https://www.amazon.com/s?k=Doesn%27t+Hold+Water+Trey+Gowdy&i=stripbooks&tag=noteleprompter-20"
+  "why": "Gowdy made Strzok <b>own his texts</b> — his book on asking the right questions",
+  "url": "https://www.amazon.com/s?k=Doesn%27t+Hurt+to+Ask+Trey+Gowdy&i=stripbooks&tag=noteleprompter-20"
  },
  {
   "section": "witness",
