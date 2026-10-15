@@ -106,7 +106,7 @@ const PRODUCTS = [
   "name": "Doesn't Hurt to Ask",
   "by": "Trey Gowdy",
   "why": "Gowdy made Strzok <b>own his texts</b> — his book on asking the right questions",
-  "url": "https://www.amazon.com/s?k=Doesn%27t+Hurt+to+Ask+Trey+Gowdy&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/0593138910?tag=noteleprompter-20"
  },
  {
   "section": "witness",
