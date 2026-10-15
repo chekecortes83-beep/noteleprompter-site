@@ -159,10 +159,10 @@ const PRODUCTS = [
  },
  {
   "section": "reading",
-  "name": "Large-Print Pocket Constitution",
+  "name": "Large-Print U.S. Constitution",
   "by": "Large print",
   "why": "Same text, easier on the eyes",
-  "url": "https://www.amazon.com/s?k=large+print+pocket+constitution&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/B0CJB379RS?tag=noteleprompter-20"
  },
  {
   "section": "reading",
