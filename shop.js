@@ -24,7 +24,153 @@ const SECTIONS = [
 ];
 
 const PRODUCTS = [
-  // { section: "witness", name: "...", why: "Seen in our <b>...</b> clip", url: "https://www.amazon.com/dp/...?tag=...", img: "https://m.media-amazon.com/images/..." },
+ {
+  "section": "witness",
+  "name": "America (The Book)",
+  "by": "Jon Stewart & The Daily Show",
+  "why": "Jon Stewart told the Pentagon's No. 2 <b>\"that's corruption\"</b>",
+  "url": "https://www.amazon.com/s?k=America+The+Book+Jon+Stewart+Daily+Show&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "One Vote",
+  "by": "Ted Cruz",
+  "why": "Cruz asked a witness <b>who founded the KKK</b>",
+  "url": "https://www.amazon.com/s?k=One+Vote+Ted+Cruz&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "Every Day Is a Gift",
+  "by": "Tammy Duckworth",
+  "why": "Duckworth <b>ripped into her own party's leadership</b>",
+  "url": "https://www.amazon.com/s?k=Every+Day+Is+a+Gift+Tammy+Duckworth&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "Persist",
+  "by": "Elizabeth Warren",
+  "why": "Warren asked a general if <b>questioning orders is sedition</b>",
+  "url": "https://www.amazon.com/s?k=Persist+Elizabeth+Warren&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "Manhood",
+  "by": "Josh Hawley",
+  "why": "Hawley <b>read Jack Smith's own notes</b> back to him",
+  "url": "https://www.amazon.com/s?k=Manhood+Josh+Hawley&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "Kiss and Make-Up",
+  "by": "Gene Simmons",
+  "why": "Gene Simmons told Congress opposing the bill is <b>\"un-American\"</b>",
+  "url": "https://www.amazon.com/s?k=Kiss+and+Make-Up+Gene+Simmons&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "107 Days",
+  "by": "Kamala Harris",
+  "why": "Harris asked Kavanaugh about <b>Trump's lawyer's firm</b>",
+  "url": "https://www.amazon.com/s?k=107+Days+Kamala+Harris&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "For Love of Country",
+  "by": "Tulsi Gabbard",
+  "why": "Gabbard got <b>cut off mid-answer</b> about the raid",
+  "url": "https://www.amazon.com/s?k=For+Love+of+Country+Tulsi+Gabbard&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "There Is Nothing for You Here",
+  "by": "Fiona Hill",
+  "why": "Fiona Hill on why <b>women's anger gets dismissed</b>",
+  "url": "https://www.amazon.com/s?k=There+Is+Nothing+for+You+Here+Fiona+Hill&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "Government Gangsters",
+  "by": "Kash Patel",
+  "why": "Patel <b>never answered</b> Welch's FBI question",
+  "url": "https://www.amazon.com/s?k=Government+Gangsters+Kash+Patel&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "Compromised",
+  "by": "Peter Strzok",
+  "why": "Gowdy made Strzok <b>own his texts</b>",
+  "url": "https://www.amazon.com/s?k=Compromised+Peter+Strzok&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "Doesn't Hold Water",
+  "by": "Trey Gowdy",
+  "why": "The other side of the <b>Strzok-Gowdy</b> exchange",
+  "url": "https://www.amazon.com/s?k=Doesn%27t+Hold+Water+Trey+Gowdy&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "Midnight in Washington",
+  "by": "Adam Schiff",
+  "why": "Schiff read <b>Trump's live tweet</b> in the hearing",
+  "url": "https://www.amazon.com/s?k=Midnight+in+Washington+Adam+Schiff&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "No Going Back",
+  "by": "Kristi Noem",
+  "why": "Moskowitz waved a <b>leaked report</b> at Noem",
+  "url": "https://www.amazon.com/s?k=No+Going+Back+Kristi+Noem&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "witness",
+  "name": "Decades of Decadence",
+  "by": "Marco Rubio",
+  "why": "Rubio read <b>Kushner's own quote</b> back to him",
+  "url": "https://www.amazon.com/s?k=Decades+of+Decadence+Marco+Rubio&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "record",
+  "name": "Pocket U.S. Constitution",
+  "by": "Pocket edition",
+  "why": "The document half our clips end up arguing about",
+  "url": "https://www.amazon.com/s?k=pocket+constitution+of+the+united+states&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "record",
+  "name": "The Federalist Papers",
+  "by": "Hamilton, Madison & Jay",
+  "why": "What the founders said Congress was for",
+  "url": "https://www.amazon.com/s?k=The+Federalist+Papers&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "history",
+  "name": "All the President's Men",
+  "by": "Bob Woodward & Carl Bernstein",
+  "why": "The Watergate story from the reporters who broke it",
+  "url": "https://www.amazon.com/s?k=All+the+President%27s+Men+Woodward+Bernstein&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "history",
+  "name": "The Final Days",
+  "by": "Bob Woodward & Carl Bernstein",
+  "why": "Nixon's last months, from the same two reporters",
+  "url": "https://www.amazon.com/s?k=The+Final+Days+Woodward+Bernstein&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "reading",
+  "name": "Large-Print Pocket Constitution",
+  "by": "Large print",
+  "why": "Same text, easier on the eyes",
+  "url": "https://www.amazon.com/s?k=large+print+pocket+constitution&i=stripbooks&tag=noteleprompter-20"
+ },
+ {
+  "section": "reading",
+  "name": "Lighted Magnifying Glass",
+  "by": "Reading aid",
+  "why": "For fine print — and C-SPAN chyrons",
+  "url": "https://www.amazon.com/s?k=lighted+handheld+magnifying+glass+for+reading&tag=noteleprompter-20"
+ }
 ];
 
 function esc(s) {
@@ -34,13 +180,14 @@ function esc(s) {
 function card(p) {
   const art = p.img
     ? `<img src="${esc(p.img)}" alt="" loading="lazy">`
-    : `<div class="cover">${esc(p.name)}</div>`;
+    : `<div class="cover"><span>${esc(p.name)}</span><small>${esc(p.by || "")}</small></div>`;
   // `why` may carry <b> for the clip reference; it is authored here, not user input.
   return `<a class="card" href="${esc(p.url)}" target="_blank" rel="nofollow sponsored noopener">
     ${art}
     <div class="info">
       <div class="name">${esc(p.name)}</div>
-      <div class="why">${p.why || ""}</div>
+      ${p.by ? `<div class="by">${esc(p.by)}</div>` : ""}
+      <div class="why">${p.section === "witness" ? "🎬 " : ""}${p.why || ""}</div>
       <span class="btn">View on Amazon</span>
     </div>
   </a>`;
