@@ -29,49 +29,49 @@ const PRODUCTS = [
   "name": "America (The Book)",
   "by": "Jon Stewart & The Daily Show",
   "why": "Jon Stewart told the Pentagon's No. 2 <b>\"that's corruption\"</b>",
-  "url": "https://www.amazon.com/s?k=America+The+Book+Jon+Stewart+Daily+Show&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/0446532681?tag=noteleprompter-20"
  },
  {
   "section": "witness",
-  "name": "One Vote",
+  "name": "One Vote Away",
   "by": "Ted Cruz",
   "why": "Cruz asked a witness <b>who founded the KKK</b>",
-  "url": "https://www.amazon.com/s?k=One+Vote+Ted+Cruz&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/1684511348?tag=noteleprompter-20"
  },
  {
   "section": "witness",
   "name": "Every Day Is a Gift",
   "by": "Tammy Duckworth",
   "why": "Duckworth <b>ripped into her own party's leadership</b>",
-  "url": "https://www.amazon.com/s?k=Every+Day+Is+a+Gift+Tammy+Duckworth&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/1538718502?tag=noteleprompter-20"
  },
  {
   "section": "witness",
   "name": "Persist",
   "by": "Elizabeth Warren",
   "why": "Warren asked a general if <b>questioning orders is sedition</b>",
-  "url": "https://www.amazon.com/s?k=Persist+Elizabeth+Warren&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/1250799244?tag=noteleprompter-20"
  },
  {
   "section": "witness",
   "name": "Manhood",
   "by": "Josh Hawley",
   "why": "Hawley <b>read Jack Smith's own notes</b> back to him",
-  "url": "https://www.amazon.com/s?k=Manhood+Josh+Hawley&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/168451357X?tag=noteleprompter-20"
  },
  {
   "section": "witness",
   "name": "Kiss and Make-Up",
   "by": "Gene Simmons",
   "why": "Gene Simmons told Congress opposing the bill is <b>\"un-American\"</b>",
-  "url": "https://www.amazon.com/s?k=Kiss+and+Make-Up+Gene+Simmons&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/0099436140?tag=noteleprompter-20"
  },
  {
   "section": "witness",
   "name": "107 Days",
   "by": "Kamala Harris",
   "why": "Harris asked Kavanaugh about <b>Trump's lawyer's firm</b>",
-  "url": "https://www.amazon.com/s?k=107+Days+Kamala+Harris&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/1668211653?tag=noteleprompter-20"
  },
  {
   "section": "witness",
