@@ -78,28 +78,28 @@ const PRODUCTS = [
   "name": "For Love of Country",
   "by": "Tulsi Gabbard",
   "why": "Gabbard got <b>cut off mid-answer</b> about the raid",
-  "url": "https://www.amazon.com/s?k=For+Love+of+Country+Tulsi+Gabbard&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/1684514851?tag=noteleprompter-20"
  },
  {
   "section": "witness",
   "name": "There Is Nothing for You Here",
   "by": "Fiona Hill",
   "why": "Fiona Hill on why <b>women's anger gets dismissed</b>",
-  "url": "https://www.amazon.com/s?k=There+Is+Nothing+for+You+Here+Fiona+Hill&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/0063269082?tag=noteleprompter-20"
  },
  {
   "section": "witness",
   "name": "Government Gangsters",
   "by": "Kash Patel",
   "why": "Patel <b>never answered</b> Welch's FBI question",
-  "url": "https://www.amazon.com/s?k=Government+Gangsters+Kash+Patel&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/B0DBYN1T9J?tag=noteleprompter-20"
  },
  {
   "section": "witness",
   "name": "Compromised",
   "by": "Peter Strzok",
   "why": "Gowdy made Strzok <b>own his texts</b>",
-  "url": "https://www.amazon.com/s?k=Compromised+Peter+Strzok&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/0358237068?tag=noteleprompter-20"
  },
  {
   "section": "witness",
@@ -113,21 +113,21 @@ const PRODUCTS = [
   "name": "Midnight in Washington",
   "by": "Adam Schiff",
   "why": "Schiff read <b>Trump's live tweet</b> in the hearing",
-  "url": "https://www.amazon.com/s?k=Midnight+in+Washington+Adam+Schiff&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/059323152X?tag=noteleprompter-20"
  },
  {
   "section": "witness",
   "name": "No Going Back",
   "by": "Kristi Noem",
   "why": "Moskowitz waved a <b>leaked report</b> at Noem",
-  "url": "https://www.amazon.com/s?k=No+Going+Back+Kristi+Noem&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/1546008160?tag=noteleprompter-20"
  },
  {
   "section": "witness",
   "name": "Decades of Decadence",
   "by": "Marco Rubio",
   "why": "Rubio read <b>Kushner's own quote</b> back to him",
-  "url": "https://www.amazon.com/s?k=Decades+of+Decadence+Marco+Rubio&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/0063296977?tag=noteleprompter-20"
  },
  {
   "section": "record",
