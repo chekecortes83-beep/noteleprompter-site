@@ -134,28 +134,28 @@ const PRODUCTS = [
   "name": "Pocket U.S. Constitution",
   "by": "Pocket edition",
   "why": "The document half our clips end up arguing about",
-  "url": "https://www.amazon.com/s?k=pocket+constitution+of+the+united+states&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/1631581481?tag=noteleprompter-20"
  },
  {
   "section": "record",
   "name": "The Federalist Papers",
   "by": "Hamilton, Madison & Jay",
   "why": "What the founders said Congress was for",
-  "url": "https://www.amazon.com/s?k=The+Federalist+Papers&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/0486496368?tag=noteleprompter-20"
  },
  {
   "section": "history",
   "name": "All the President's Men",
   "by": "Bob Woodward & Carl Bernstein",
   "why": "The Watergate story from the reporters who broke it",
-  "url": "https://www.amazon.com/s?k=All+the+President%27s+Men+Woodward+Bernstein&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/1476770514?tag=noteleprompter-20"
  },
  {
   "section": "history",
   "name": "The Final Days",
   "by": "Bob Woodward & Carl Bernstein",
   "why": "Nixon's last months, from the same two reporters",
-  "url": "https://www.amazon.com/s?k=The+Final+Days+Woodward+Bernstein&i=stripbooks&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/0743274067?tag=noteleprompter-20"
  },
  {
   "section": "reading",
@@ -169,7 +169,7 @@ const PRODUCTS = [
   "name": "Lighted Magnifying Glass",
   "by": "Reading aid",
   "why": "For fine print — and C-SPAN chyrons",
-  "url": "https://www.amazon.com/s?k=lighted+handheld+magnifying+glass+for+reading&tag=noteleprompter-20"
+  "url": "https://www.amazon.com/dp/B08XXF1VCS?tag=noteleprompter-20"
  }
 ];
 
