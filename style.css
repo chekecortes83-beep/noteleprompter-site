@@ -143,3 +143,4 @@ footer small { display: block; font-size: 12px; line-height: 1.5; margin-top: 8p
 }
 
 .card .cover { width: 76px; overflow: hidden; overflow-wrap: anywhere; hyphens: auto; }
+.card img { width: 76px; min-width: 76px; }
